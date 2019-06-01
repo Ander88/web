@@ -45,7 +45,7 @@
     right: 0;
     top: -50px;
     /*调用动画序列*/
-    animation: fly01 5s linear infinite/*无穷循环*//* alternate*//*逆播放*/;
+    animation: fly01 20s linear infinite/*无穷循环*//* alternate*//*逆播放*/;
 }
 /*动画效果*/
 /*定义动画序列*/
