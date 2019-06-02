@@ -14,7 +14,18 @@
     right: 60px;
     bottom: 80px;
     z-index: 100;
-    animation:more 0.3s linear infinite alternate;
+    animation:more 0.5s linear infinite alternate;
+}
+.more:hover{
+    animation-play-state: paused;
+}
+.moreImg{
+    width: 150px;
+}
+.moreImg:hover{
+    transform:scale(1.05);
+    transform-origin: center center;
+    transition: all 0.2s linear;
 }
 /*内容容器*/
 .content{
